@@ -67,6 +67,10 @@
                     </form>
                 </div>
             </div>
+
+            <div class="text-center py-4">
+            New to ShinyBlog? <a href="{{ route('register') }}">{{ __('Register') }}</a>
+            </div>
         </div>
     </div>
 </div>

@@ -14,7 +14,10 @@
                         </div>
                     @endif
 
-                    {{ __('You are logged in!') }}
+                    {{ __('You are logged in as ') }}
+                    <a href="#">
+                        {{ Auth::user()->name }}
+                    </a>
                 </div>
             </div>
         </div>
